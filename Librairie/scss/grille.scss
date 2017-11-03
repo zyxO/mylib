@@ -1,0 +1,83 @@
+@import "mixingrille";
+
+$nbcol : 8;
+$col : 10;
+//$largeurgout: (100 - ($nbcol * $col)) / ($nbcol + 1);
+
+#id{
+background-color: yellow;
+position: absolute;
+display : flex;
+flex-wrap: wrap;
+
+&>div {
+
+height: 5em;
+overflow: auto;
+margin-top: 1em;
+box-sizing : border-box;
+@include Grille($nbcol,$col,0,1);
+
+	  }
+
+&>div:nth-child(1){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+&>div:nth-child(2){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+&>div:nth-child(3){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+&>div:nth-child(3){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+&>div:nth-child(4){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+
+&>div:nth-child(5){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+&>div:nth-child(6){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+&>div:nth-child(7){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+ &>div:nth-child(8){
+@include Grille($nbcol,$col,1,0);
+
+
+	  }
+
+
+
+}
+
+//avec mixin
+

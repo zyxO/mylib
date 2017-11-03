@@ -1,0 +1,27 @@
+$fontfamily : Arial,Helvetica Neue,Helvetica,sans-serif;
+$colorsmall : grey;
+$colorbtn1 : #008CBA;
+$colorbtn2 : #ff3433;
+$colorbtn3 : #00b33c;
+$degradecolor1:red;
+$degradecolor2:#00bbbc;
+$taillebtnsm : 1%;
+$taillebtnlg : 3%;
+$coloralerte:#ff3333;
+$colorsucces :#4CAF50;
+$colorinfo :#00b8e6;
+$colorwarning : #b3b300;
+$tailletxtjumbo : 21px;
+$colortxtjumbo : black;
+$paddingh1header : 25px;
+$backgroundcolorheader : grey;
+
+
+
+@import "reset";
+@import "selecteur";
+@import "alerte";
+@import "bouton";
+@import "composants";
+@import "grille";
+

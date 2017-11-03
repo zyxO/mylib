@@ -1,0 +1,9 @@
+@mixin Grille($nbcol,$col,$largelem,$offset){
+
+
+$largeurgout: (100 - ($nbcol * $col)) / ($nbcol + 1);
+width: ($largelem * $col + ($largelem - 1)*$largeurgout)* 1%;
+background-color: teal;
+margin-left: ($offset * $col + ($offset + 1)* $largeurgout)*1%;
+}
+

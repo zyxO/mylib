@@ -1,0 +1,117 @@
+/*bouton*/
+
+.btn{
+
+    border: solid black;
+    color: black;
+    padding:2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+
+.btn:hover{
+
+background-color: black;
+color:white;
+
+}
+
+.btn-sm {
+
+	font-size: 10px;
+	padding: $taillebtnsm;
+
+
+}
+
+.btn-lg
+{
+
+	font-size: 20px;
+	padding: $taillebtnlg;
+
+}
+
+.btn1{
+
+
+border: solid $colorbtn1 ;
+
+}
+
+.btn1:hover {
+    background-color: $colorbtn1;
+    color: white;
+}
+
+
+.btn2{
+
+
+border: solid $colorbtn2;
+
+}
+
+.btn2:hover {
+    background-color:$colorbtn2;
+    color: white;
+}
+
+.btn3{
+
+
+border: solid  $colorbtn3;
+
+}
+
+.btn3:hover {
+    background-color:$colorbtn3;
+    color: white;
+}
+
+
+.fat {
+
+border-style: none;
+border-radius: 0px;
+
+
+
+}
+
+.extra-large{
+
+	width: 100%;
+
+}
+
+.fancy{
+
+
+
+    -webkit-box-shadow: 10px 10px 5px #888888; 
+    -cursormoz-box-shadow: 10px 10px 5px #888888;
+    -webkit-transform:skewX(5deg); /* Chrome, Safari, Opera  */
+    -moz-transform: skewX(5deg);
+    transform: skewX(5deg);
+}
+
+
+.fancy:hover{
+
+
+	background: red; 
+    background: -webkit-linear-gradient($degradecolor1, $degradecolor2); 
+    background: -o-linear-gradient($degradecolor1 $degradecolor2); 
+    background: -moz-linear-gradient($degradecolor1, $degradecolor2); 
+    background: linear-gradient($degradecolor1, $degradecolor2);
+
+}

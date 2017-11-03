@@ -1,0 +1,643 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*////////////////////////////////////////*/
+
+/* Titre */
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+
+}
+
+h1,h2,h3,h4,h5,h6,small,p,body,mark,del,ins,u,strong,em,abbr,blockquote{
+
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+
+
+}
+h3{
+	font-size: 1.17em;
+	
+
+}
+h4{
+	font-size: 1em;
+
+
+}
+
+h5 {
+	font-size: 0.83em;
+
+	
+}
+
+h6 {
+	font-size: 0.67em;  
+	margin-bottom: 2%;
+
+}
+
+/*sous titre*/
+
+small {
+font-size:smaller;
+color: grey;
+display: block;
+}
+
+.small small {
+	font-size: smaller;
+    color: black;
+    display: block;
+}
+
+/*Paragraphe*/
+
+body p{
+
+margin-bottom: 2%;
+
+}
+
+/*balise texte inline*/
+
+mark{
+
+background-color: green;
+color : black;
+
+}
+
+del{
+
+text-decoration: line-through;
+
+}
+
+ins{
+
+text-decoration: underline;
+
+}
+
+u {
+
+text-decoration: underline;
+
+
+}
+
+strong {
+
+font-weight: bold;
+
+}
+
+em{
+
+font-style: italic;
+
+}
+
+mark,del,ins,u,strong,em,abbr{
+
+	display: inline;
+	color: black;
+
+}
+
+/*quote et blockquote*/
+
+blockquote{
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 1;
+color: grey;
+}
+
+code{
+font-family: monospace;
+}
+
+
+pre{
+white-space: pre;
+font-size: 16px;
+font-style: normal;
+font-variant:normal;
+font-weight: 400;
+line-height: 1;
+font-family: monospace;
+
+}
+
+kbd{
+
+font-family: Arial;
+
+
+}
+
+/*Liste*/
+
+ul.circle {
+
+list-style: circle;
+padding: 30px;
+
+}
+
+ul.square {
+
+list-style: square;
+padding: 30px;
+
+}
+
+ul.none {
+
+list-style: none;
+padding: 30px;
+
+}
+
+
+/*Alignement et transformation*/
+
+
+.left{
+
+text-align: left;
+
+}
+
+.right{
+
+	text-align: right;
+}
+
+.center{
+
+	text-align: center;
+
+}
+
+.justify
+{
+
+text-align: justify;
+
+
+}
+
+.upperCase {
+
+text-transform: uppercase;
+
+
+}
+
+
+.lowerCase {
+
+text-transform: lowercase;
+}
+
+/*Classes supplÃƒÂ©mentaires*/
+
+.borderdot{
+
+border-style: dotted;
+border-width: 2px;
+}
+
+.borderdash{
+
+border-style: dashed;
+border-width: 2px;
+}
+
+
+.bordersolid{
+
+border-style: solid;
+border-width: 2px;
+}
+
+
+.bordergroove{
+
+border-style: groove;
+border-width: 2px;
+
+}
+
+li ul{
+display: none;
+text-align: center;
+transition-property:display;
+transition-delay: 3s;
+border: double;
+}
+li:hover ul{
+ display: block;
+}
+
+.lignesurvol:hover{
+
+
+text-decoration: underline;
+
+}
+
+
+/*boites*/
+
+.block {
+
+display: block;
+box-sizing: border-box;
+
+}
+
+.inlineblock{
+
+
+display: inline-block;
+box-sizing: border-box;
+overflow: auto;
+/* width et background sert uniquement a la verification*/
+width:50%;
+background-color: grey;
+
+}
+
+.dnone{
+
+display: none;
+
+
+}
+
+.floatl{
+
+float: left;
+background-color: purple;/*Uniquement pour la verification*/
+}
+
+.clearl{
+
+clear: left;
+overflow: auto;
+}
+
+
+.floatr{
+
+float: right;
+background-color: red;/*Uniquement pour la verification*/
+
+}
+
+.clearl{
+
+clear: right;
+overflow: auto;
+}
+
+.floatb{
+
+	float: both;
+
+}
+
+.clearb{
+	clear: both;
+	overflow : auto;
+
+}
+
+.floatn{
+
+float: none
+}
+
+.flex{
+
+display: flex;
+flex-wrap: wrap;
+background-color: teal;
+
+}
+
+.bsize {
+
+box-sizing: border-box;
+overflow: auto;
+
+}
+
+
+/*bouton*/
+
+.btn{
+
+    border: solid black;
+    color: black;
+    padding:2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+
+
+.btn:hover{
+
+background-color: black;
+color:white;
+
+}
+
+.btn-sm {
+
+	font-size: 10px;
+	padding: 1%;
+
+
+}
+
+.btn-lg
+{
+
+	font-size: 20px;
+	padding: 3%;
+
+}
+
+.btn-blue{
+
+
+border: solid #008CBA ;
+
+}
+
+.btn-blue:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+.btn-red{
+
+
+border: solid #ff3333 ;
+
+}
+
+.btn-red:hover {
+    background-color:#ff3333;
+    color: white;
+}
+
+.btn-green{
+
+
+border: solid #00b33c ;
+
+}
+
+.btn-green:hover {
+    background-color:#00b33c;
+    color: white;
+}
+
+
+.fat {
+
+border-style: none;
+border-radius: 0px;
+
+
+
+}
+
+.extra-large{
+
+	width: 100%;
+
+}
+
+.fancy{
+
+
+
+    -webkit-box-shadow: 10px 10px 5px #888888; 
+    -cursormoz-box-shadow: 10px 10px 5px #888888;
+
+    -webkit-transform:skewX(5deg); /* Chrome, Safari, Opera  */
+    -moz-transform: skewX(5deg);
+    transform: skewX(5deg);
+}
+
+
+.fancy:hover{
+
+
+		background: red; 
+    background: -webkit-linear-gradient(red, yellow); 
+    background: -o-linear-gradient(red, yellow); 
+    background: -moz-linear-gradient(red, yellow); 
+    background: linear-gradient(red, yellow);
+
+}
+
+/*alertes*/
+
+.alert {
+	display: block;
+    padding: 2%;
+    background-color: #ff3333; 
+    color: white;
+    margin-bottom: 15px;
+   
+}
+
+.success{
+	display: block;
+	padding: 2%;
+	background-color: #4CAF50;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.info{
+	display: block;
+	padding: 2%;
+	background-color: #00b8e6;
+	color: white;
+	margin-bottom: 15px;
+}
+
+.warning {
+	display: block;
+	padding: 2%;
+	background-color: #b3b300;
+	color: white;
+	margin-bottom: 15px;
+}
+
+
+/*header*/
+
+header{
+    display: block;
+    background-color:  grey;
+    overflow: hidden;
+}
+
+header h1{
+    float: left;
+    padding: 25px;
+} 
+
+header h1 small{
+
+	margin: auto;
+
+}
+
+header .btn {
+	float:right;
+}
+
+
+/*jumbotron*/
+
+.jumbotron {
+	 font-size: 21px;
+	 box-sizing: border-box;
+	 text-align: center;
+	 height: 350px;
+	 color: black;
+	 background-color: grey;
+	 border-radius: 8px;
+	 margin :30px;
+	 line-height: 1.4;
+	 padding: 5px;
+	 overflow: auto;
+}
+
+/*placement avec display*/
+
+.breadcrumb  {
+	width: 800px;
+	margin:auto;
+	background:orange;
+	padding:5px;
+}
+
+.breadcrumb  ul {
+	text-align: center;
+}
+
+.breadcrumb  ul li {
+	display: inline-block;
+	padding:5px;
+}
+
+.breadcrumb  ul li a {
+	text-decoration: none;
+	color:red;
+}
+
+
+.pagination {
+	width: 800px;
+	margin:auto;
+	padding:5px;
+}
+
+.pagination ul {
+	text-align: center;
+}
+
+.pagination ul li {
+	display: inline-block;
+	padding:5px;
+}
+
+.pagination ul li a {
+	text-decoration: none;
+	color:black;
+	padding: 10px;
+}
+
+.pagination ul li a:hover {
+	background-color: teal;
+	padding: 10px;
+	color: white;
+}

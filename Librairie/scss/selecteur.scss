@@ -1,0 +1,348 @@
+
+
+
+/* Titre */
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+
+}
+
+h1,h2,h3,h4,h5,h6,small,p,body,mark,del,ins,u,strong,em,abbr,blockquote{
+
+	font-family: $fontfamily;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+
+
+}
+h3{
+	font-size: 1.17em;
+	
+
+}
+h4{
+	font-size: 1em;
+
+
+}
+
+h5 {
+	font-size: 0.83em;
+
+	
+}
+
+h6 {
+	font-size: 0.67em;  
+	margin-bottom: 2%;
+
+}
+
+/*sous titre*/
+
+small {
+font-size:smaller;
+color: $colorsmall;
+display: block;
+}
+
+.small small {
+	font-size: smaller;
+    color: black;
+    display: block;
+}
+
+/*Paragraphe*/
+
+body p{
+
+margin-bottom: 2%;
+
+}
+
+/*balise texte inline*/
+
+mark{
+
+background-color: green;
+color : black;
+
+}
+
+del{
+
+text-decoration: line-through;
+
+}
+
+ins{
+
+text-decoration: underline;
+
+}
+
+u {
+
+text-decoration: underline;
+
+
+}
+
+strong {
+
+font-weight: bold;
+
+}
+
+em{
+
+font-style: italic;
+
+}
+
+mark,del,ins,u,strong,em,abbr{
+
+	display: inline;
+	color: black;
+
+}
+
+/*quote et blockquote*/
+
+blockquote{
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+line-height: 1;
+color: grey;
+}
+
+code{
+font-family: monospace;
+}
+
+
+pre{
+white-space: pre;
+font-size: 16px;
+font-style: normal;
+font-variant:normal;
+font-weight: 400;
+line-height: 1;
+font-family: monospace;
+
+}
+
+kbd{
+
+font-family: Arial;
+
+
+}
+
+
+/*Liste*/
+
+ul.circle {
+
+list-style: circle;
+padding: 30px;
+
+}
+
+ul.square {
+
+list-style: square;
+padding: 30px;
+
+}
+
+ul.none {
+
+list-style: none;
+padding: 30px;
+
+}
+
+
+/*Alignement et transformation*/
+
+
+.left{
+
+text-align: left;
+
+}
+
+.right{
+
+	text-align: right;
+}
+
+.center{
+
+	text-align: center;
+
+}
+
+.justify
+{
+
+text-align: justify;
+
+
+}
+
+.upperCase {
+
+text-transform: uppercase;
+
+
+}
+
+
+.lowerCase {
+
+text-transform: lowercase;
+}
+
+/*Classes supplÃƒÂ©mentaires*/
+
+.borderdot{
+
+border-style: dotted;
+border-width: 2px;
+}
+
+.borderdash{
+
+border-style: dashed;
+border-width: 2px;
+}
+
+
+.bordersolid{
+
+border-style: solid;
+border-width: 2px;
+}
+
+
+.bordergroove{
+
+border-style: groove;
+border-width: 2px;
+
+}
+
+li ul{
+display: none;
+text-align: center;
+transition-property:display;
+transition-delay: 3s;
+border: double;
+}
+li:hover ul{
+ display: block;
+}
+
+.lignesurvol:hover{
+
+
+text-decoration: underline;
+
+}
+
+/*boites*/
+
+.block {
+
+display: block;
+box-sizing: border-box;
+
+}
+
+.inlineblock{
+
+
+display: inline-block;
+box-sizing: border-box;
+overflow: auto;
+/* width et background sert uniquement a la verification*/
+width:50%;
+background-color: grey;
+
+}
+
+.dnone{
+
+display: none;
+
+
+}
+
+.floatl{
+
+float: left;
+background-color: purple;/*Uniquement pour la verification*/
+}
+
+.clearl{
+
+clear: left;
+overflow: auto;
+}
+
+
+.floatr{
+
+float: right;
+background-color: red;/*Uniquement pour la verification*/
+
+}
+
+.clearl{
+
+clear: right;
+overflow: auto;
+}
+
+.floatb{
+
+	float: both;
+
+}
+
+.clearb{
+	clear: both;
+	overflow : auto;
+
+}
+
+.floatn{
+
+float: none
+}
+
+.flex{
+
+display: flex;
+flex-wrap: wrap;
+background-color: teal;
+
+}
+
+.bsize {
+
+box-sizing: border-box;
+overflow: auto;
+
+}
+

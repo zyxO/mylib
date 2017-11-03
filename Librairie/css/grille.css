@@ -1,0 +1,51 @@
+#id {
+  background-color: yellow;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap; }
+  #id > div {
+    height: 5em;
+    overflow: auto;
+    margin-top: 1em;
+    box-sizing: border-box;
+    width: -2.2222222222%;
+    background-color: teal;
+    margin-left: 14.4444444444%; }
+  #id > div:nth-child(1) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(2) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(3) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(3) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(4) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(5) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(6) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(7) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+  #id > div:nth-child(8) {
+    width: 10%;
+    background-color: teal;
+    margin-left: 2.2222222222%; }
+
+/*# sourceMappingURL=grille.css.map */
